@@ -1,0 +1,129 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  
+  grid-gap: 30px;  
+  text-align: center;
+}
+
+.section {
+  background-color: #2e2e2e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.navbar {
+  grid-column: 1 / 4;  
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2e2e2e;
+}
+
+.navbar h1 {
+  color: #00bfff;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+.intro {
+  grid-column: 1; 
+}
+
+.intro h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #b0b0b0;
+}
+
+.profile-image {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+
+.about {
+  grid-column: 2; 
+  text-align: center;
+}
+
+.about h3 {
+  font-size: 28px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #b0b0b0;
+}
+
+.projects {
+  grid-column: 3; 
+  text-align: left;
+}
+
+.projects h3 {
+  font-size: 28px;
+}
+
+.projects ul {
+  list-style-type: none;
+}
+
+.projects ul li {
+  font-size: 18px;
+  color: #b0b0b0;
+  margin: 10px 0;
+}
+
+.contact {
+  grid-column: 1 / 4; 
+  margin-top: 40px;
+}
+
+.contact h3 {
+  font-size: 28px;
+}
+
+.contact p {
+  font-size: 18px;
+  color: #b0b0b0;
+}
+
